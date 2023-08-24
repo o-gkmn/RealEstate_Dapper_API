@@ -11,12 +11,14 @@
                 {
                 <div class="col-lg-4 col-md-6">
                     <a href="property-single.html">
-                        <div class="box16">
-                            <div class="rentext-listing-category"><span>Satılık</span><span>@item.categoryName</span></div>
-                            <img class="img-fluid" src="@item.coverImage" alt="">
-                            <div class="box-content">
-                                <h3 class="title">₺ @item.price</h3>
-                                <span class="post">@item.district - @item.city</span>
+                        <div class="mb-3">
+                            <div class="box16">
+                                <div class="rentext-listing-category"><span>@item.type</span><span>@item.categoryName</span></div>
+                                <img class="img-fluid" style="height:200px" src="@item.coverImage" alt="">
+                                <div class="box-content">
+                                    <h3 class="title">₺ @item.price</h3>
+                                    <span class="post">@item.address @item.district - @item.city</span>
+                                </div>
                             </div>
                         </div>
                     </a>
