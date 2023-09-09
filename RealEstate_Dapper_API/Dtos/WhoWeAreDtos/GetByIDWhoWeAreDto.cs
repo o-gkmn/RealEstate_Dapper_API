@@ -1,4 +1,4 @@
-﻿namespace RealEstate_Dapper_API.Dtos.WhoWeAreDtos
+﻿namespace RealEstate_Dapper_UI.Dtos.WhoWeAreDtos
 {
     public class GetByIDWhoWeAreDto
     {

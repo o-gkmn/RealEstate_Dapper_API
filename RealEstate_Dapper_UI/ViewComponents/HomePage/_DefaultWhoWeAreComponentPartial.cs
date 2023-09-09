@@ -17,7 +17,7 @@ namespace RealEstate_Dapper_UI.ViewComponents.HomePage
         {
             var client = _httpClientFactory.CreateClient();
             var clientForServices = _httpClientFactory.CreateClient();
-            var responseMessaage = await client.GetAsync("https://localhost:44382/api/WhoWeAre/who_we_ares");
+            var responseMessaage = await client.GetAsync("https://localhost:44382/api/WhoWeAres/who_we_ares");
             var responseMessaageForServices = await clientForServices.GetAsync("https://localhost:44382/api/Services/get_service_list");
 
             if(responseMessaage.IsSuccessStatusCode && responseMessaageForServices.IsSuccessStatusCode)
