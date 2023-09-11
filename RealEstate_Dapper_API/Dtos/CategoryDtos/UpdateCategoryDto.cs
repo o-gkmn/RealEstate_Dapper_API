@@ -1,4 +1,4 @@
-﻿namespace RealEstate_Dapper_UI.Dtos.CategoryDtos
+﻿namespace RealEstate_Dapper_API.Dtos.CategoryDtos
 {
     public class UpdateCategoryDto
     {

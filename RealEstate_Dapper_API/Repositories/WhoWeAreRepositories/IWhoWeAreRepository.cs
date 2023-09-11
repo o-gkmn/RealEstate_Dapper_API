@@ -1,6 +1,6 @@
-﻿using RealEstate_Dapper_UI.Dtos.WhoWeAreDtos;
+﻿using RealEstate_Dapper_API.Dtos.WhoWeAreDtos;
 
-namespace RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories
+namespace RealEstate_Dapper_API.Repositories.WhoWeAreRepositories
 {
     public interface IWhoWeAreRepository
     {

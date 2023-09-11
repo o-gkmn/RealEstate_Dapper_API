@@ -1,6 +1,6 @@
-﻿using RealEstate_Dapper_UI.Dtos.ServiceDtos;
+﻿using RealEstate_Dapper_API.Dtos.ServiceDtos;
 
-namespace RealEstate_Dapper_UI.Repositories.ServiceRepositories
+namespace RealEstate_Dapper_API.Repositories.ServiceRepositories
 {
     public interface IServiceRepository
     {

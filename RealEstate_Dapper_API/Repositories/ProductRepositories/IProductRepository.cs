@@ -1,6 +1,6 @@
-﻿using RealEstate_Dapper_UI.Dtos.ProductDtos;
+﻿using RealEstate_Dapper_API.Dtos.ProductDtos;
 
-namespace RealEstate_Dapper_UI.Repositories.ProductRepositories
+namespace RealEstate_Dapper_API.Repositories.ProductRepositories
 {
     public interface IProductRepository
     {

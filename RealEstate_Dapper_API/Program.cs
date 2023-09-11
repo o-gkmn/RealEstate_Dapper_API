@@ -1,14 +1,11 @@
-using RealEstate_Dapper_UI.Models.DapperContext;
-using RealEstate_Dapper_UI.Repositories.PopularLocationRepositories;
-using RealEstate_Dapper_UI.Repositories.BottomGridRepositories;
-using RealEstate_Dapper_UI.Repositories.CategoryRepositories;
-using RealEstate_Dapper_UI.Repositories.ProductRepositories;
-using RealEstate_Dapper_UI.Repositories.ProductRepositories;
-using RealEstate_Dapper_UI.Repositories.ServiceRepositories;
-using RealEstate_Dapper_UI.Repositories.ServiceRepositories;
-using RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories;
-using RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories;
-using RealEstate_Dapper_UI.Repositories.TestimonialRepositories;
+using RealEstate_Dapper_API.Repositories.BottomGridRepositories;
+using RealEstate_Dapper_API.Repositories.CategoryRepositories;
+using RealEstate_Dapper_API.Repositories.PopularLocationRepositories;
+using RealEstate_Dapper_API.Repositories.ProductRepositories;
+using RealEstate_Dapper_API.Repositories.ServiceRepositories;
+using RealEstate_Dapper_API.Repositories.TestimonialRepositories;
+using RealEstate_Dapper_API.Repositories.WhoWeAreRepositories;
+using RealEstate_Dapper_API.Models.DapperContext;
 
 var builder = WebApplication.CreateBuilder(args);
 

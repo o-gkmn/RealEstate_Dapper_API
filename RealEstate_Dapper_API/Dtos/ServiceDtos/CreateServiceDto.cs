@@ -1,4 +1,4 @@
-﻿namespace RealEstate_Dapper_UI.Dtos.ServiceDtos
+﻿namespace RealEstate_Dapper_API.Dtos.ServiceDtos
 {
     public class CreateServiceDto
     {

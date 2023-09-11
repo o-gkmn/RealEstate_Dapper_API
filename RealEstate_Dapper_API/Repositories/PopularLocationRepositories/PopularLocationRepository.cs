@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using RealEstate_Dapper_UI.Dtos.PopularLocationDtos;
-using RealEstate_Dapper_UI.Models.DapperContext;
+using RealEstate_Dapper_API.Dtos.PopularLocationDtos;
+using RealEstate_Dapper_API.Models.DapperContext;
 
-namespace RealEstate_Dapper_UI.Repositories.PopularLocationRepositories
+namespace RealEstate_Dapper_API.Repositories.PopularLocationRepositories
 {
     public class PopularLocationRepository : IPopularLocationRepository
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RealEstate_Dapper_UI.Dtos.WhoWeAreDtos;
-using RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories;
+using RealEstate_Dapper_API.Dtos.WhoWeAreDtos;
+using RealEstate_Dapper_API.Repositories.WhoWeAreRepositories;
 
-namespace RealEstate_Dapper_UI.Controllers
+namespace RealEstate_Dapper_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

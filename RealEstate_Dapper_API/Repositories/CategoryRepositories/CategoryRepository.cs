@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using RealEstate_Dapper_UI.Dtos.CategoryDtos;
-using RealEstate_Dapper_UI.Models.DapperContext;
+using RealEstate_Dapper_API.Dtos.CategoryDtos;
+using RealEstate_Dapper_API.Models.DapperContext;
 
-namespace RealEstate_Dapper_UI.Repositories.CategoryRepositories
+namespace RealEstate_Dapper_API.Repositories.CategoryRepositories
 {
     public class CategoryRepository : ICategoryRepository
     {

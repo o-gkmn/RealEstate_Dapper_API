@@ -1,4 +1,4 @@
-﻿namespace RealEstate_Dapper_UI.Dtos.ProductDtos
+﻿namespace RealEstate_Dapper_API.Dtos.ProductDtos
 {
     public class ResultProductDto
     {
@@ -11,7 +11,7 @@
         public string Address { get; set; }
         public string Description { get; set; }
         public string Type { get; set; }
-        public int ProductCategory { get; set; } 
+        public int ProductCategory { get; set; }
         public int EmployeeID { get; set; }
     }
 }

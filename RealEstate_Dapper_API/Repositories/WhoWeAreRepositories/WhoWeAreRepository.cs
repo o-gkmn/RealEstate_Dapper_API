@@ -1,9 +1,8 @@
 ﻿using Dapper;
-using RealEstate_Dapper_UI.Models.DapperContext;
-using RealEstate_Dapper_UI.Dtos.WhoWeAreDtos;
-using RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories;
+using RealEstate_Dapper_API.Dtos.WhoWeAreDtos;
+using RealEstate_Dapper_API.Models.DapperContext;
 
-namespace RealEstate_Dapper_UI.Repositories.WhoWeAreRepositories
+namespace RealEstate_Dapper_API.Repositories.WhoWeAreRepositories
 {
     public class WhoWeAreRepository : IWhoWeAreRepository
     {

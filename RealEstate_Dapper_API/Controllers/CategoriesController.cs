@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RealEstate_Dapper_UI.Dtos.CategoryDtos;
-using RealEstate_Dapper_UI.Dtos.CategoryDtos;
-using RealEstate_Dapper_UI.Repositories.CategoryRepositories;
+using RealEstate_Dapper_API.Dtos.CategoryDtos;
+using RealEstate_Dapper_API.Repositories.CategoryRepositories;
 
-namespace RealEstate_Dapper_UI.Controllers
+namespace RealEstate_Dapper_API.Controllers
 {
     [Route("api/categories")]
     [ApiController]

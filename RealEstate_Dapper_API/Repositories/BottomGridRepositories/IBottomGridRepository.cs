@@ -1,6 +1,6 @@
-﻿using RealEstate_Dapper_UI.Dtos.BottomGridDtos;
+﻿using RealEstate_Dapper_API.Dtos.BottomGridDtos;
 
-namespace RealEstate_Dapper_UI.Repositories.BottomGridRepositories
+namespace RealEstate_Dapper_API.Repositories.BottomGridRepositories
 {
     public interface IBottomGridRepository
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RealEstate_Dapper_UI.Repositories.ProductRepositories;
+using RealEstate_Dapper_API.Repositories.ProductRepositories;
 
-namespace RealEstate_Dapper_UI.Controllers
+namespace RealEstate_Dapper_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

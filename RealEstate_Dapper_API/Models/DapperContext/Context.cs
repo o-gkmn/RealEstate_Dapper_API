@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace RealEstate_Dapper_UI.Models.DapperContext
+namespace RealEstate_Dapper_API.Models.DapperContext
 {
     public class Context
     {

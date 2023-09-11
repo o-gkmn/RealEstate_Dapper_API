@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using RealEstate_Dapper_UI.Models.DapperContext;
-using RealEstate_Dapper_UI.Dtos.ProductDtos;
+using RealEstate_Dapper_API.Dtos.ProductDtos;
+using RealEstate_Dapper_API.Models.DapperContext;
 
-namespace RealEstate_Dapper_UI.Repositories.ProductRepositories
+namespace RealEstate_Dapper_API.Repositories.ProductRepositories
 {
     public class ProductRepository : IProductRepository
     {
