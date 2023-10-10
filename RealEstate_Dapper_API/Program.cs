@@ -7,6 +7,7 @@ using RealEstate_Dapper_API.Repositories.TestimonialRepositories;
 using RealEstate_Dapper_API.Repositories.WhoWeAreRepositories;
 using RealEstate_Dapper_API.Models.DapperContext;
 using RealEstate_Dapper_API.Repositories.EmployeeRepositories;
+using RealEstate_Dapper_API.Repositories.StatisticRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Services.AddTransient<IBottomGridRepository, BottomGridRepository>();
 builder.Services.AddTransient<IPopularLocationRepository, PopularLocationRepository>();
 builder.Services.AddTransient<ITestimonialRepository, TestimonialRepository>();
 builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddTransient<IStatisticRepository, StatisticRepository>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
